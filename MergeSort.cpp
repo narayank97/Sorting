@@ -7,11 +7,11 @@ void merge(int *myList, int *L, int *R, int length);
 
 
 int main(){
-    int myArray[7] = {99,36,55,2,1,27,92};
+    int myArray[3] = {3,2,1};
 
-    mergeSort(myArray,7);
+    mergeSort(myArray,3);
 
-    for(int i = 0; i < 7; i++){
+    for(int i = 0; i < 3; i++){
         cout << myArray[i]<<"\t";
     }
     cout << endl << endl;
